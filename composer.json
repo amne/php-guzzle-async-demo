@@ -1,0 +1,22 @@
+{
+    "name": "amne/phpasync",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9",
+        "guzzlehttp/promises": "^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64"
+    },
+    "autoload": {
+        "psr-4": {
+            "Amne\\Phpasync\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cornel Cruceru",
+            "email": "amne@amne.me"
+        }
+    ]
+}
